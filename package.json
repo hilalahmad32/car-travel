@@ -1,0 +1,33 @@
+{
+  "name": "chatbackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "fcm-node": "^1.6.1",
+    "http-status": "^1.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.21.4",
+    "md5": "^2.2.1",
+    "moment": "^2.29.1",
+    "mongoose": "^5.12.7",
+    "multer": "^1.4.3",
+    "mysql": "^2.18.1",
+    "redis": "^3.1.2",
+    "socket.io": "^2.4.1",
+    "socket.io-redis": "^5.4.0",
+    "uniqid": "^5.2.0"
+  },
+  "devDependencies": {
+    "chalk": "^4.1.0"
+  }
+}
